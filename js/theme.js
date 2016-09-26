@@ -200,7 +200,7 @@ $('.counter').counterUp({
 // featured box typed text
 $(".featured-box .typed-element").typed({
 
-    strings: ["Pure^3000", "Total^3000", "Brutal^3000"], // Waits 3000ms after typing word        
+    strings: ["10%^3000", "15%^3000", "20%^3000"], // Waits 3000ms after typing word        
     typeSpeed: 100, // typing speed        
     startDelay: 0, // time before typing starts        
     loop: true, // loop        
