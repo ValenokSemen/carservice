@@ -211,7 +211,9 @@ a:focus
     height: 100%;
     padding: 20px;
 
-    background-color: rgba(0, 46, 82, .15);
+    /*background-color: rgba(0, 46, 82, .15);*/
+    /*background-color: rgba(42, 43, 48, 0.4);*/
+    background-color: rgba(0, 7, 11, .3);
 }
 
 .cover-inner
@@ -2297,6 +2299,7 @@ video.bgvid
 .owl-carousel
 {
     cursor: e-resize;
+    margin-top: 10px;
 }
 
 .owl-theme .owl-controls
@@ -3092,7 +3095,7 @@ a.info-box-1:hover
 
 #services-section .cover
 {
-    background-color: rgba(0, 7, 11, .91);
+    background-color: rgba(0, 7, 11, .3);
 }
 
 
@@ -3261,7 +3264,7 @@ a.info-box-1:hover
 
 .featured-box .cover
 {
-    background-color: rgba(0, 7, 11, .8);
+    background-color: rgba(0, 7, 11, .3);
 }
 
 
