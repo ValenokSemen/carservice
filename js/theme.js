@@ -198,16 +198,16 @@ $('.counter').counterUp({
 /////////////////////////////////////////////////
 
 // featured box typed text
-$(".featured-box .typed-element").typed({
+// $(".featured-box .typed-element").typed({
 
-    strings: ["10%^3000", "15%^3000", "20%^3000"], // Waits 3000ms after typing word        
-    typeSpeed: 100, // typing speed        
-    startDelay: 0, // time before typing starts        
-    loop: true, // loop        
-    showCursor: false, // show cursor
-    cursorChar: "|" // character for cursor
+//     strings: ["10%^3000", "15%^3000", "20%^3000"], // Waits 3000ms after typing word        
+//     typeSpeed: 100, // typing speed        
+//     startDelay: 0, // time before typing starts        
+//     loop: true, // loop        
+//     showCursor: false, // show cursor
+//     cursorChar: "|" // character for cursor
     
-});
+// });
 
 // Video intro typed text
 $("#video-intro-section .typed-element").typed({
