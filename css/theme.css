@@ -93,7 +93,7 @@ h6
     text-transform: uppercase;
 }
 
-.navbar-nav > li > a
+.navbar-nav > li > a, .social-icon-list
 {
     font-family: 'LatoBold', Helvetica, Arial, sans-serif;
 }
