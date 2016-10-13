@@ -22,27 +22,22 @@
     .section_title_left h1 {
         font-size: 36px;
     }
-    .section_title_right {
-        width: 100%;
-        padding: 0 0 0 37px;
-    }
 }
 
 
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
-    .section_title_left {
-        width: 100%;
-    }
-    .section_title_right {
-        width: 100%;
-        padding: 0 0 0 80px;
-    }
+
     .title_bottonline {
         margin: 40px auto 20px;
     }
+
+    .section_title_left h1 {
+        font-size: 42px;
+    }
 }
+
 
 
 /* Small Devices, Tablets */
@@ -51,6 +46,10 @@
     /* Make Navigation Toggle on Desktop Hover (use class: dropdown-hover) */
     .dropdown-hover:hover > .dropdown-menu {
         display: block;
+    }
+
+    .page-header .divider, .heading .divider {
+        display: none;
     }
 }
 
@@ -289,4 +288,28 @@
     .navbar-default.navbar-fixed-top.navbar-shrink .social {
         border-left: none;
     }
+
+
+    .section_title_left {
+        width: 100%;
+        display: block;
+        border: none;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        padding: 0px;
+        float: none;
+    }
+    .section_title_right {
+        width: 100%;
+        padding: 0 40px 0 40px;
+        float: none;
+    }
+
+    .section_title_right p {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
 }

@@ -1990,7 +1990,7 @@ video.bgvid
     margin-top: 10px;
     margin-bottom: 25px;
 
-    color: #fff;
+    color: #e83f33;
 }
 
 .divider:before
@@ -2005,7 +2005,7 @@ video.bgvid
 
     content: '';
 
-    border-top: 1px solid #fff;
+    border-top: 1px solid #e83f33;
 }
 
 .divider:after
@@ -2020,7 +2020,7 @@ video.bgvid
 
     content: '';
 
-    border-top: 1px solid #fff;
+    border-top: 1px solid #e83f33;
 }
 
 
