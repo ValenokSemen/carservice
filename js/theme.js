@@ -164,6 +164,26 @@ $.stellar({
     verticalScrolling: true,
 });
 
+/////////////////////////
+// Scroll to top button
+/////////////////////////
+
+// Check to see if the window is top if not then display button
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+        $('.scrolltotop').fadeIn();
+    } else {
+        $('.scrolltotop').fadeOut();
+    }
+});
+
+// Click event to scroll to top
+$('.scrolltotop').click(function(){
+    $('html, body').animate({scrollTop : 0}, 1500, 'easeInOutExpo');
+    return false;
+});
+
+
 
 
 ///////////////////////////////////////////////////////////
@@ -223,24 +243,6 @@ $("#video-intro-section .typed-element").typed({
 
 
 
-/////////////////////////
-// Scroll to top button
-/////////////////////////
-
-// Check to see if the window is top if not then display button
-$(window).scroll(function(){
-    if ($(this).scrollTop() > 100) {
-        $('.scrolltotop').fadeIn();
-    } else {
-        $('.scrolltotop').fadeOut();
-    }
-});
-
-// Click event to scroll to top
-$('.scrolltotop').click(function(){
-    $('html, body').animate({scrollTop : 0}, 1500, 'easeInOutExpo');
-    return false;
-});
 
 
 
